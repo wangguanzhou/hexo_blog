@@ -331,7 +331,7 @@
       
         
           
-            <p><a href="/images/allowed-nssai-config.png"><img src="/images/allowed-nssai-config.png" alt="Allowed NSSAI Configuration"></a></p>
+            <p><a href="/images/allowed-nssai-config.png"><img src="/blog/images/allowed-nssai-config.png" alt="Allowed NSSAI Configuration"></a></p>
 
           
         
@@ -451,7 +451,7 @@
       
         
           
-            <p><a href="/images/qos-profile.png"><img src="/images/qos-profile.png" alt="5G Qos Profile"></a></p>
+            <p><a href="/blog/images/qos-profile.png"><img src="/blog/images/qos-profile.png" alt="5G Qos Profile"></a></p>
 <p>When 5GI is standardized or preconfigured value, it may be directly used as QFI. Otherwise the SMF needs to assign a QFI.<br>RQA is used as an indication that the Reflective QoS is activated in the N2 signaling from 5GC to RAN.</p>
 
           
@@ -573,9 +573,9 @@
         
           
             <p>NSSAI is a collection of S-NSSAI. Each S-NSSAI points to a NSI. Two different S-NSSAIs may point to the same NSI.<br>S-NSSAI = SST + SD. SST may be standardized values such as eMMB, URLLC or MIoT. It could also be PLMN specific values and in that case the S-NSSAI is associated with a specific PLMN and can only be used in that PLMN.</p>
-<p><a href="/images/NSSAIs-1.png"><img src="/images/NSSAIs-1.png" alt="NSSAIs"></a></p>
+<p><a href="/images/NSSAIs-1.png"><img src="/blog/images/NSSAIs-1.png" alt="NSSAIs"></a></p>
 <p>In UDM the UE’s subscription data may contain Subscribed NSSAI and some of them (up to 8 S-NSSAIs) might be marked as Default S-NSSAIs.<br>At UE side it may be configured by the operator some Configured NSSAI. It may also store the Allowed NSSAI received from the Registration procedure.<br>The AMF UE context may also store the Allowed NSSAI for the UE.<br>The UE forms the requested NSSAI from the configured NSSAI and/or stored allowed NSSAI. If none of those NSSAIs is available, the UE doesn’t include any requested NSSAI in its message.</p>
-<p><a href="/images/NSSAIs-2.png"><img src="/images/NSSAIs-2.png" alt="NSSAIs"></a></p>
+<p><a href="/images/NSSAIs-2.png"><img src="/blog/images/NSSAIs-2.png" alt="NSSAIs"></a></p>
 
           
         
@@ -696,7 +696,7 @@
         
           
             <p>I followed the tutorial <a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-blog-with-hexo-on-ubuntu-14-04/" target="_blank" rel="external">here</a> to have built this blog. The tutorial is very clear. However, there are a few Hexo related folders that could be very confusing. I scribbled this diagram to remind myself of how those folders interact with each other.<br>The tricky part is the pseudo git remote ‘hexo_bare’ which resides at the same place with ‘hexo_static’. A Git hook is created in ‘hexo_bare’ which triggers the copying of static files to the web directory. I guess the hook only works in the push receiving side but not the pull receiving side, otherwise we can create the hook in ‘hexo_static’ folder and do without ‘hexo_bare’ folder.</p>
-<p><a href="/images/hexo-folders.png"><img src="/images/hexo-folders.png" alt="Hexo folders"></a></p>
+<p><a href="/blog/images/hexo-folders.png"><img src="/blog/images/hexo-folders.png" alt="Hexo folders"></a></p>
 
           
         
